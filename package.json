@@ -1,0 +1,11 @@
+{
+  "name": "firework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp -r ./src/assets ./build && mkdir .temp && tsc && browserify ./.temp/main.js | uglifyjs > ./build/bundle.js && rm -rf ./.temp"
+  },
+  "author": "",
+  "license": "ISC"
+}

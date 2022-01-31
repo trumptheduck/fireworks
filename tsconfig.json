@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+	    "sourceMap": true,
+        "outDir": "./.temp",
+        "strict": true
+    },
+    "include": [
+        "./src/**/*"
+        , "src/main.ts"    
+    ],
+    "exclude": [
+    ],
+}
